@@ -1,0 +1,46 @@
+:root {
+  --header-height: 64px;
+  --sidebar-width: 236px;
+
+  --bg-secondary-color: #F7F8FC;
+  --bg-primary-color: #FFFFFF;
+
+  --text-color: var(--graphite-700);
+  --text-color-light: var(--graphite-400);
+  --text-color-lighter: var(--graphite-300);
+  
+  --primary-color: #AF52DE;
+  --border-color: #EAECF0;
+  
+  --gray-300: #D0D5DD;
+  --graphite-300: #8A8F94;
+  --graphite-400: #5A5C5F;
+  --graphite-700: #242528;
+  --graphite-800: #1D1E20;
+  --graphite-900: #141414;
+
+  --font-family: 'Inter', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--text-color);
+  background: var(--bg-secondary-color);
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+  line-height: 1.6;
+  font-family: var(--font-family);
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
